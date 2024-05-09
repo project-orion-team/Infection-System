@@ -1,0 +1,27 @@
+{
+  "name": "infection system",
+
+  "tree": {
+
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+    "$path": "src/shared"
+    },
+
+    "ReplicatedFirst": {
+    "$path": "src/start"
+    },
+
+    "ServerScriptService": {
+    "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+      "$path": "src/client"
+      }
+    }
+
+  }
+}
